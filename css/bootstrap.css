@@ -1443,7 +1443,6 @@ img {
 .img-responsive,
 .thumbnail a>img,
 .thumbnail>img {
-    display: block;
     max-width: 100%;
     height: auto
 }
@@ -5103,7 +5102,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     overflow-y: auto
 }
 
-@media (min-width:768px) {
+@media (min-width:320px) {
     .navbar-collapse {
         width: auto;
         border-top: 0;
@@ -5259,7 +5258,8 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .navbar-nav>li>a {
     padding-top: 10px;
     padding-bottom: 10px;
-    line-height: 20px
+    line-height: 20px;
+    text-align: center;
 }
 
 @media (max-width:767px) {
