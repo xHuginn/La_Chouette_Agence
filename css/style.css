@@ -1014,6 +1014,9 @@ footer p {
     color: #141414;
 }
 
+.navbar-header img {
+    width: 320px;
+}
 
 /* TABLETTES */
 @media (min-width: 426px) and (max-width: 767px) {
