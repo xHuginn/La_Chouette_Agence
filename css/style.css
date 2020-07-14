@@ -1018,14 +1018,36 @@ footer p {
     width: 320px;
 }
 
+.page_2--accroche h1 {
+    font-size: 4rem;
+}
+
+.page_2--accroche p {
+    font-size: 1.8rem;
+}
+
+.contact--p {
+    margin-top: 360px;
+}
+
 /* TABLETTES */
 @media (min-width: 426px) and (max-width: 767px) {
-       
+      
+    .contact--p {
+        margin-top: 50px;
+    }
+
     .navbar-header {
         margin-left: 25px;
     }
 
     footer {
         height: 310px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+    .contact--p {
+        margin-top: 0;
     }
 }
